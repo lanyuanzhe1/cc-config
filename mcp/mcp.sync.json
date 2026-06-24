@@ -1,0 +1,42 @@
+{
+  "playwright": {
+    "command": "npx",
+    "args": [
+      "@playwright/mcp@latest",
+      "--browser",
+      "firefox"
+    ],
+    "platforms": [
+      "mac"
+    ]
+  },
+  "mcp-vision": {
+    "command": "{{PYTHON}}",
+    "args": [
+      "-m",
+      "mcp_ocr.server"
+    ],
+    "env": {
+      "PATH": "/opt/homebrew/Caskroom/miniconda/base/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin",
+      "MCP_OCR_PROVIDER": "siliconflow",
+      "SILICONFLOW_API_KEY": "sk-blqqsunnbwavajlexwscanzbmedwaeqoqocngbrbtsmlqsgt",
+      "SILICONFLOW_MODEL": "deepseek-ai/DeepSeek-OCR"
+    },
+    "platforms": [
+      "mac"
+    ]
+  },
+  "mimo-vision": {
+    "command": "{{PYTHON}}",
+    "args": [
+      "/Users/lanyuanzhe/mcp-mimo-vision/server.py"
+    ],
+    "env": {
+      "MIMO_API_KEY": "sk-czyup7mx3c0hbc4y7wkvckypome4oqfge1ptn3ld54x629vp",
+      "MIMO_MODEL": "mimo-v2.5"
+    },
+    "platforms": [
+      "mac"
+    ]
+  }
+}

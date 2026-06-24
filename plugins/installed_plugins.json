@@ -1,0 +1,375 @@
+{
+  "version": 2,
+  "plugins": {
+    "superpowers@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/superpowers/6.0.3",
+        "version": "6.0.3",
+        "installedAt": "2026-06-01T13:04:13.376Z",
+        "lastUpdated": "2026-06-24T06:36:44.823Z",
+        "gitCommitSha": "f2cbfbefebbfef77321e4c9abc9e949826bea9d7"
+      }
+    ],
+    "frontend-design@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/frontend-design/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.889Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "agent-sdk-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/agent-sdk-dev/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.887Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "clangd-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/clangd-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "claude-code-setup@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/claude-code-setup/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "claude-md-management@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/claude-md-management/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "code-modernization@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/code-modernization/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.888Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "code-review@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/code-review/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.887Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "code-simplifier@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/code-simplifier/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "commit-commands@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/commit-commands/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.888Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "context7@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/context7/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.887Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "csharp-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/csharp-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "explanatory-output-style@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/explanatory-output-style/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "feature-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/feature-dev/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.889Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "github@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/github/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.886Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "gopls-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/gopls-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "hookify@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/hookify/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.886Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "jdtls-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/jdtls-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "kotlin-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/kotlin-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "laravel-boost@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/laravel-boost/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.886Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "learning-output-style@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/learning-output-style/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "lua-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/lua-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "playwright@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/playwright/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.890Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "mcp-server-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/mcp-server-dev/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.885Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "mcp-tunnels@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/mcp-tunnels/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.885Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "php-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/php-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "plugin-dev@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/plugin-dev/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.888Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "pr-review-toolkit@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/pr-review-toolkit/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.889Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "pyright-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/pyright-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "ralph-loop@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/ralph-loop/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "ruby-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/ruby-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "rust-analyzer-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/rust-analyzer-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "security-guidance@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/security-guidance/2.0.6",
+        "version": "2.0.6",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-13T13:58:56.833Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "session-report@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/session-report/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.889Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "skill-creator@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/skill-creator/bb335391eb83",
+        "version": "bb335391eb83",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-24T06:36:41.884Z",
+        "gitCommitSha": "f2a86b756c9d175458025fd3cb584964dab14e4b"
+      }
+    ],
+    "swift-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/swift-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ],
+    "typescript-lsp@claude-plugins-official": [
+      {
+        "scope": "user",
+        "installPath": "/Users/lanyuanzhe/.claude/plugins/cache/claude-plugins-official/typescript-lsp/1.0.0",
+        "version": "1.0.0",
+        "installedAt": "2026-06-03T15:55:43.572Z",
+        "lastUpdated": "2026-06-03T15:55:43.572Z",
+        "gitCommitSha": "0d82eac145a50e6867d908419dccc5087b8595b0"
+      }
+    ]
+  }
+}
