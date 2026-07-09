@@ -1,26 +1,8 @@
-# Global Memory Index
-
-- [aliyun-ecs-deployment.md](aliyun-ecs-deployment.md)
-- [architecture-pragmatism.md](architecture-pragmatism.md)
-- [competitor-aheadform-origin-f1.md](competitor-aheadform-origin-f1.md)
-- [cross-platform-workflow.md](cross-platform-workflow.md)
-- [feedback_docx_workflow.md](feedback_docx_workflow.md)
-- [feedback_interaction.md](feedback_interaction.md)
-- [feedback_keep_weights.md](feedback_keep_weights.md)
-- [feedback_workflow.md](feedback_workflow.md)
-- [legacy-frontend-xss-known.md](legacy-frontend-xss-known.md)
-- [pdf-generation-chrome.md](pdf-generation-chrome.md)
-- [phase-zero-status.md](phase-zero-status.md)
-- [plan-before-code.md](plan-before-code.md)
-- [project-feasibility-strategy.md](project-feasibility-strategy.md)
-- [project_context.md](project_context.md)
-- [project_spdrdn.md](project_spdrdn.md)
-- [reference_external.md](reference_external.md)
-- [ruff-global-install.md](ruff-global-install.md)
-- [sdk-docs-local.md](sdk-docs-local.md)
-- [server-connection.md](server-connection.md)
-- [user-background.md](user-background.md)
-- [user_profile.md](user_profile.md)
-- [vue3-over-streamlit-decision.md](vue3-over-streamlit-decision.md)
-- [windows-dev.md](windows-dev.md)
-- [yolo_detection_notes.md](yolo_detection_notes.md)
+- [项目背景](project_context.md) — 藻影卫士项目，当前主线 algae_image_v2，exe已封装，HSV 分支未提交
+- [用户画像](user_profile.md) — 角色、技术背景、环境、沟通偏好
+- [工作流偏好](feedback_workflow.md) — 验证后完成、一个PR、无emoji、无结尾总结
+- [交互风格](feedback_interaction.md) — 并行优先、bash直接命令、主动解释原理
+- [YOLO检测设计](yolo_detection_notes.md) — 95类LifeWatch体系，84.7% mAP50，形状结构为主
+- [外部资源](reference_external.md) — GitHub、云服务器、竞赛文书、模型权重、关键文档位置
+- [Docx转换工作流](feedback_docx_workflow.md) — pandoc+OOXML 处理含公式文档，优先于 docx-js
+- [保留所有权重](feedback_keep_weights.md) — 失败实验的 .pt/.pth 也有价值，只清理构建产物

@@ -32,9 +32,16 @@
       "/Users/lanyuanzhe/mcp-mimo-vision/server.py"
     ],
     "env": {
-      "MIMO_API_KEY": "sk-czyup7mx3c0hbc4y7wkvckypome4oqfge1ptn3ld54x629vp",
+      "MIMO_API_KEY": "sk-cz0yl9kfa3qxzugeodcwsqwk04lk3k43yr0f66g8mt44f70c",
       "MIMO_MODEL": "mimo-v2.5"
     },
+    "platforms": [
+      "mac"
+    ]
+  },
+  "hermes": {
+    "type": "http",
+    "url": "https://mcp.hermesagent.org.cn/v1",
     "platforms": [
       "mac"
     ]

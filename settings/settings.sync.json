@@ -121,6 +121,8 @@
       "WebFetch(domain:github.com)",
       "WebFetch(domain:zenodo.org)",
       "WebFetch(domain:zenodo-rdm.web.cern.ch)",
+      "WebFetch(domain:hermesagent.org.cn)",
+      "WebFetch(domain:docs.hermesagent.org.cn)",
       "Skill(pr-review-toolkit:review-pr)",
       "Skill(pr-review-toolkit:review-pr:*)",
       "Skill(update-config)",
@@ -129,7 +131,7 @@
       "mcp__plugin_playwright_playwright__browser_console_messages",
       "mcp__plugin_playwright_playwright__browser_snapshot",
       "mcp__plugin_playwright_playwright__browser_click",
-      "mcp__mcp-vision_*"
+      "Bash(/opt/homebrew/Caskroom/miniconda/base/bin/python calculation.py)"
     ],
     "additionalDirectories": [
       "/tmp",
@@ -137,6 +139,12 @@
     ]
   },
   "model": "opus",
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "mcp-vision",
+    "playwright",
+    "hermes"
+  ],
   "hooks": {
     "Stop": [
       {
@@ -187,13 +195,9 @@
     "session-report@claude-plugins-official": true,
     "skill-creator@claude-plugins-official": true,
     "swift-lsp@claude-plugins-official": true,
-    "typescript-lsp@claude-plugins-official": true
+    "typescript-lsp@claude-plugins-official": true,
+    "minimax-skills@minimax-skills": true
   },
   "effortLevel": "xhigh",
-  "theme": "auto",
-  "enableAllProjectMcpServers": true,
-  "enabledMcpjsonServers": [
-    "mcp-vision",
-    "playwright"
-  ]
+  "theme": "auto"
 }
