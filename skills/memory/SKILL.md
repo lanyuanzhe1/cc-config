@@ -1,12 +1,12 @@
 ---
 name: memory
-description: Manage Claude Code persistent memory. Use when user wants to list, clean, save, or review memories — or mentions /memory, "管理记忆", "更新memory", "清理记忆", "保存到记忆", "查看记忆"
+description: Manage Codex persistent memory. Use when user wants to list, clean, save, or review memories — or mentions /memory, "管理记忆", "更新memory", "清理记忆", "保存到记忆", "查看记忆"
 user_invocable: true
 ---
 
 # Memory Manager
 
-管理 Claude Code 的持久化记忆系统。记忆存放在 `~/.claude/projects/<project>/memory/` 下，分为四种类型。
+管理 Codex 的持久化记忆系统。记忆存放在 `~/.Codex/projects/<project>/memory/` 下，分为四种类型。
 
 ## Usage
 

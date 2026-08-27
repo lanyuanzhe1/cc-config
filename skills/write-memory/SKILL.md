@@ -6,7 +6,7 @@ user_invocable: true
 
 # Write Memory
 
-从当前会话中提取值得持久化的信息，写入 `~/.claude/projects/<project>/memory/`。
+从当前会话中提取值得持久化的信息，写入 `~/.Codex/projects/<project>/memory/`。
 
 ## 执行流程
 
@@ -34,7 +34,7 @@ user_invocable: true
 ### 2. 过滤
 
 跳过以下内容：
-- 已在 CLAUDE.md 中的信息
+- 已在 AGENTS.md 中的信息
 - 代码本身能推导的（文件路径、函数名、git历史）
 - 临时的、一次性的任务细节
 - 通用编程建议（不是针对这个项目的）
@@ -66,4 +66,4 @@ user_invocable: true
 - 宁可少存，不存垃圾。不确定是否该存的内容，跳过。
 - 每条 feedback 必须有具体的 Why 和 How to apply。
 - 发现记忆腐烂（过时的project信息）时主动更新或标记。
-- 不要重复存储 CLAUDE.md 中已有的规则。
+- 不要重复存储 AGENTS.md 中已有的规则。

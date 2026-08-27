@@ -64,6 +64,7 @@ agently-cli +me
 | 列出邮件 | `agently-cli message +list` | 按文件夹翻页列出邮件 |
 | 读取邮件 | `agently-cli message +read --id msg_xxx` | 获取完整内容（含 body、attachments） |
 | 搜索邮件 | `agently-cli message +search --q "关键词"` | 关键词 + 多维度过滤搜索 |
+| 新邮件提醒 | `agently-cli message +watch` | 持续等待并返回新邮件详情 |
 | 发送邮件 | `agently-cli message +send` | 发送新邮件，支持 cc/bcc/HTML/附件 |
 | 回复邮件 | `agently-cli message +reply --id msg_xxx` | 回复邮件，支持 reply-all、cc/bcc、HTML、追加附件 |
 | 转发邮件 | `agently-cli message +forward --id msg_xxx` | 转发给新收件人，支持 cc/bcc、HTML、携带原附件和追加附件 |
@@ -120,8 +121,11 @@ agently-cli +me
 
 搜索翻页时**必须保留原搜索条件**再追加 `--cursor`，否则丢失搜索上下文。
 
+### +watch
+`--msg-format`（`full`/`event`，默认 `full`）
+
 ### +send
-`--to`（可重复）、`--subject`、`--body` 或 `--body-file ./body.html`、`--cc`（可重复）、`--bcc`（可重复）、`--attachment ./file.pdf`（可重复，最多 3 个，仅支持相对路径）、`--confirmation-token`
+`--to`（可重复）、`--subject`、`--body` 或 `--body-file ./body.html`（相对路径）、`--cc`（可重复）、`--bcc`（可重复）、`--attachment ./file.pdf`（可重复，相对路径）、`--confirmation-token`
 
 ### +reply
 `--id`、`--body` 或 `--body-file ./body.html`、`--reply-all`、`--cc`（可重复）、`--bcc`（可重复）、`--attachment ./file.pdf`、`--confirmation-token`
@@ -149,6 +153,22 @@ agently-cli +me
 agently-cli message +search --q "报告" --has-attachments
 agently-cli message +read --id msg_xxx
 ```
+
+### 新邮件提醒
+
+持续监听新邮件时，运行：
+
+```bash
+agently-cli message +watch
+```
+
+每封新邮件输出一行 NDJSON。默认 `--msg-format full` 返回完整邮件详情：
+
+```json
+{"message": {"message_id": "msg_xxx", ...}}
+```
+
+持续读取命令返回的邮件详情并按用户要求处理，直到用户要求停止监听。
 
 ### 发送带附件（两阶段确认）
 

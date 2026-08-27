@@ -1,12 +1,12 @@
 ---
 name: find-skill
-description: Search the BuildWithClaude marketplace (github.com/davepoon/buildwithclaude) for Claude Code skills, plugins, commands, hooks, and MCP servers. Use when the user wants to find a skill by keyword, category, or name — e.g. "find me skills for PDF", "search marketplace for Slack automation", "show me all finance plugins". Covers 316+ skills across 117+ plugins.
+description: Search the BuildWithClaude marketplace (github.com/davepoon/buildwithclaude) for Codex skills, plugins, commands, hooks, and MCP servers. Use when the user wants to find a skill by keyword, category, or name — e.g. "find me skills for PDF", "search marketplace for Slack automation", "show me all finance plugins". Covers 316+ skills across 117+ plugins.
 license: MIT
 ---
 
 # Find Skill — BuildWithClaude Marketplace Search
 
-Search the BuildWithClaude community marketplace for Claude Code plugins and skills.
+Search the BuildWithClaude community marketplace for Codex plugins and skills.
 
 ## Search Methods
 
@@ -15,7 +15,7 @@ Search the BuildWithClaude community marketplace for Claude Code plugins and ski
 Fetch the marketplace index and filter by keyword, name, description, or category:
 
 ```bash
-curl -sL "https://raw.githubusercontent.com/davepoon/buildwithclaude/main/.claude-plugin/marketplace.json" | python -c "
+curl -sL "https://raw.githubusercontent.com/davepoon/buildwithclaude/main/.Codex-plugin/marketplace.json" | python -c "
 import sys, json
 query = '<KEYWORD>'.lower()
 data = json.load(sys.stdin)
@@ -66,7 +66,7 @@ curl -sL "https://raw.githubusercontent.com/davepoon/buildwithclaude/main/<path>
 List all unique categories and their plugins:
 
 ```bash
-curl -sL "https://raw.githubusercontent.com/davepoon/buildwithclaude/main/.claude-plugin/marketplace.json" | python -c "
+curl -sL "https://raw.githubusercontent.com/davepoon/buildwithclaude/main/.Codex-plugin/marketplace.json" | python -c "
 import sys, json
 from collections import defaultdict
 data = json.load(sys.stdin)
@@ -82,13 +82,13 @@ for cat, plugins in sorted(cats.items()):
 
 ## Installation
 
-Once you find a skill you want, install it via the Claude Code plugin system:
+Once you find a skill you want, install it via the Codex plugin system:
 
 ```bash
-claude plugins install <plugin-name>
+Codex plugins install <plugin-name>
 ```
 
-Or manually add the skill to `~/.claude/skills/<skill-name>/SKILL.md`.
+Or manually add the skill to `~/.Codex/skills/<skill-name>/SKILL.md`.
 
 ## Tips
 
