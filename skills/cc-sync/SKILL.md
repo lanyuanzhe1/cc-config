@@ -57,9 +57,10 @@ Build one logical skill set without modifying either local source:
 2. Add direct child directories containing `SKILL.md` in `~/.codex/skills/`.
 3. If the same name exists in both roots, `~/.agents/skills/<name>` wins. Report the shadowed Codex copy.
 4. Ignore `.system`, hidden directories, symlinks escaping the source root, caches, and directories without `SKILL.md`.
-5. On push, copy each selected directory to `~/cc-config/skills/<name>/` with `rsync -a --delete`.
-6. A repository-only skill is a pull candidate. A local-only skill is a push candidate.
-7. Never delete a local skill during pull without separate explicit confirmation.
+5. On push, copy each selected directory to `~/cc-config/skills/<name>/` with `rsync -a --delete`, excluding nested VCS metadata (`.git`, `.hg`, `.svn`), `.DS_Store`, `__pycache__`, and `*.pyc`.
+6. Before commit, require every path under `skills/` to have Git mode `100644` or `100755`; mode `160000` is an invalid embedded repository, not a synchronized skill.
+7. A repository-only skill is a pull candidate. A local-only skill is a push candidate.
+8. Never delete a local skill during pull without separate explicit confirmation.
 
 ## Safe config contract
 
