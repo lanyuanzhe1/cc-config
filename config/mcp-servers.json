@@ -1,0 +1,10 @@
+{
+  "computer-use": {
+    "args": [
+      "mcp"
+    ],
+    "command": "./Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient",
+    "cwd": ".",
+    "enabled": false
+  }
+}

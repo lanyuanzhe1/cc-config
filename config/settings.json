@@ -1,0 +1,20 @@
+{
+  "desktop": {
+    "conversationDetailMode": "STEPS_COMMANDS",
+    "followUpQueueMode": "queue"
+  },
+  "marketplaces": {
+    "openai-bundled": {
+      "source_type": "local"
+    },
+    "openai-primary-runtime": {
+      "source_type": "local"
+    }
+  },
+  "model": "gpt-5.6-sol",
+  "model_reasoning_effort": "medium",
+  "notify": [
+    "turn-ended"
+  ],
+  "wire_api": "responses"
+}
