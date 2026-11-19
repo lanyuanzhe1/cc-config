@@ -1,4 +1,16 @@
 {
+  "apple_calendar": {
+    "command": "/opt/homebrew/Caskroom/miniconda/base/envs/LLM/bin/apple-calendar-mcp"
+  },
+  "apple_music": {
+    "args": [
+      "applemusic-mcp@0.22.0",
+      "serve",
+      "--level",
+      "api"
+    ],
+    "command": "{{HOME}}/.local/bin/uvx"
+  },
   "computer-use": {
     "args": [
       "mcp"
@@ -6,5 +18,15 @@
     "command": "./Codex Computer Use.app/Contents/SharedSupport/SkyComputerUseClient.app/Contents/MacOS/SkyComputerUseClient",
     "cwd": ".",
     "enabled": false
+  },
+  "deepseek_search": {
+    "args": [
+      "{{HOME}}/.codex/tools/deepseek-search-mcp/server.mjs"
+    ],
+    "command": "/opt/homebrew/bin/node"
+  },
+  "node_repl": {
+    "args": [],
+    "command": "/Applications/ChatGPT.app/Contents/Resources/cua_node/bin/node_repl"
   }
 }

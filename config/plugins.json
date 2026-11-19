@@ -5,6 +5,15 @@
   "chrome@openai-bundled": {
     "enabled": true
   },
+  "claude-mem@claude-mem-local": {
+    "enabled": true
+  },
+  "claude-mem@thedotmack": {
+    "enabled": false
+  },
+  "codex-app-tools@openai-bundled": {
+    "enabled": true
+  },
   "computer-use@openai-bundled": {
     "enabled": true
   },
